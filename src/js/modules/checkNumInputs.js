@@ -1,4 +1,4 @@
-const checkNumInputs = (selector) => {
+const checkNumInputs = (selector) => { // функция для ввода в инпут только цифры
     const numInputs = document.querySelectorAll(selector);
 
     numInputs.forEach(item => {
